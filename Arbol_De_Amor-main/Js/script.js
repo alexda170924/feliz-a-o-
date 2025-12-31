@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `te deseo un feliz año nuevo mi niña hermosa, espero que te la estes pasando bien con tu familia y te deseo lo mer de el mundo, gracias por pasar este año a mi lado y a pesar de todo siempre pudimos salir adelante sin importar la situacion, te agradesco cada pequeño detalle a lo largo de este año y mas por haber sido una parte importante en mi via`;  } else {
+    text = `te deseo un feliz año nuevo mi niña hermosa, espero que te la estes pasando bien con tu familia y te deseo lo mejor de el mundo, gracias por pasar este año a mi lado y a pesar de todo siempre pudimos salir adelante sin importar la situacion, te agradesco cada pequeño detalle a lo largo de este año y mas por haber sido una parte importante en mi via`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
